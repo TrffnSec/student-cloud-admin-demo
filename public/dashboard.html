@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Admin Dashboard</title>
+  <style>
+    body {
+      font-family: Arial;
+      background: #f4f6f8;
+      padding: 30px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      background: white;
+      padding: 25px;
+      border-radius: 12px;
+    }
+
+    input, button {
+      padding: 10px;
+      margin: 6px;
+    }
+
+    button {
+      background: #2563eb;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    .student {
+      background: #eef2ff;
+      padding: 12px;
+      margin: 10px 0;
+      border-radius: 8px;
+    }
+
+    .delete {
+      background: #dc2626;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Student Cloud Admin Panel</h1>
+
+    <button onclick="logout()">Logout</button>
+
+    <h3>Add Student Project</h3>
+
+    <input id="studentName" placeholder="Student Name">
+    <input id="projectTitle" placeholder="Project Title">
+    <input id="technology" placeholder="Technology Used">
+    <button onclick="addStudent()">Add Project</button>
+
+    <h3>Saved Student Projects</h3>
+    <div id="studentList"></div>
+  </div>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>

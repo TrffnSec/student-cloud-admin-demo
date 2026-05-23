@@ -17,13 +17,12 @@ import {
 } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDn8r5s9YVTC8mOYg8eS46yPhVZnkET7A8",
-  authDomain: "student-cloud-admin-demo.firebaseapp.com",
-  projectId: "student-cloud-admin-demo",
-  storageBucket: "student-cloud-admin-demo.firebasestorage.app",
-  messagingSenderId: "483301306590",
-  appId: "1:483301306590:web:38776232cc4da6f4ded24f",
-  measurementId: "G-E7PCQBXTKR"
+  apiKey: "PASTE_YOUR_API_KEY",
+  authDomain: "PASTE_PROJECT_ID.firebaseapp.com",
+  projectId: "PASTE_PROJECT_ID",
+  storageBucket: "PASTE_PROJECT_ID.appspot.com",
+  messagingSenderId: "PASTE_SENDER_ID",
+  appId: "PASTE_APP_ID"
 };
 
 const app = initializeApp(firebaseConfig);
